@@ -8,6 +8,7 @@
 
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
+    kotlin("jvm") version "1.7.21"
     application
 }
 
@@ -26,7 +27,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass.set("dc.lab7.App")
+    mainClass.set("dc.lab7.AppKt")
 }
 
 tasks.named<Test>("test") {
