@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><root>
+    <folders>
+        <folder name="Images"/>
+        <folder name="Downloads"/>
+    </folders>
+    <files>
+        <file folderName="Downloads" name="malware.exe" size="2"/>
+    </files>
+</root>
